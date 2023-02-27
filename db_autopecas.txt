@@ -1,0 +1,28 @@
+pessoas;
+ VARCHAR cpf 
+ VARCHAR nome
+ TINYINT idade
+ CHAR genero
+
+clientes;
+ INT cliente_id
+ VARCHAR endereço
+ SMALLINT status_fidelidade
+ INT senha
+
+funcionarios;
+ INT funcionario_id;
+ VARCHAR cargo
+ FLOAT  salario
+ DATA data contratação
+
+fornecedores;
+ INT fornecedor_id
+ VARCHAR nome_fornecedor
+ VARCHAR produtos_fornecedor
+
+produtos;
+ INT peca_id
+ VARCHAR pecas
+ FLOAT preco
+ VARCHAR fornecedor
